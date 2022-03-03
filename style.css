@@ -1,0 +1,80 @@
+body {
+    background-size: cover;
+    background-image: url("Background1.jpg");
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    overflow: hidden;
+}
+
+
+.footer_div {
+    position: fixed;
+    bottom: 0px;
+    background-color: tomato;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.heading_l {
+    background-color: springgreen;
+    width: 80%;
+    padding: 5px;
+    font-size: 40px;
+    float: left;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.note_l {
+    background-color: springgreen;
+    width: 20%;
+    font-size: 16px;
+    padding: 1px;
+}
+
+#status_of_baby {
+    background-color: tomato;
+    width: 50%;
+    padding: 4px;
+    float: left;
+    font-size: 20px;
+}
+
+#status_of_baby_text{
+    background-color: tomato;
+    width: 50%;
+    font-size: 18px;
+    padding: 4px;
+}
+
+canvas{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        background-size: cover;
+        background-image: url("Background2.jpg");
+    }
+
+    .footer_div {
+        font-size: 10px;
+    }
+
+    .heading_l {
+        font-size: 22px;
+        padding-left: 100px;
+
+    }
+
+    .note_l {
+        font-size: 10px;
+    }
+
+    #status_of_baby {
+        padding: 4px;
+        font-size: 15px;
+    }
+}
